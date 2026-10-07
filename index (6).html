@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jaya Gaur</title>
+  <!-- EDIT: one sentence that appears in Google results and link previews -->
+  <meta name="description" content="Jaya Gaur: experience, skills and contact details.">
+  <meta name="theme-color" content="#F3F5F1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jaya Gaur">
+  <meta property="og:description" content="Experience, skills and contact details.">
+  <!-- EDIT once live: <meta property="og:image" content="https://YOUR-URL/assets/jaya.jpg"> -->
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="monogram" href="#top" aria-label="Jaya Gaur, back to top">JG</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top" aria-labelledby="hero-name">
+      <h1 class="hero-name" id="hero-name">
+        <span class="hero-line">Jaya</span>
+        <span class="hero-line">Gaur</span>
+      </h1>
+
+      <figure class="hero-photo">
+        <img src="assets/jaya.jpg" alt="Portrait of Jaya Gaur" width="640" height="800" fetchpriority="high">
+        <span class="hero-photo-fallback" aria-hidden="true">JG</span>
+      </figure>
+
+      <div class="hero-intro">
+        <!-- EDIT: your job title and one or two sentences about what you do -->
+        <p class="hero-role">[Your job title] based in [City], UK</p>
+        <p class="hero-lede">[One or two sentences on what you do and who you do it for. Keep it plain and specific: the kind of work, the people you support, and what you are known for.]</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Get in touch</a>
+          <a class="button button-secondary" id="cv-button" href="assets/Jaya_Gaur_CV.pdf" download hidden>Download CV (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <h2 class="section-title" id="about-title">About</h2>
+      <div class="section-body prose">
+        <!-- EDIT: two or three short paragraphs -->
+        <p>[A short paragraph about your background: where you started, what you work on now, and the kind of problems you enjoy solving.]</p>
+        <p>[A second paragraph on how you work: with clients, with colleagues, with candidates. What people can expect from you.]</p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE: newest first. Copy one <li> block per role. -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <h2 class="section-title" id="experience-title">Experience</h2>
+      <ol class="section-body timeline">
+        <li class="role">
+          <p class="role-dates"><time datetime="2023">2023</time> to present</p>
+          <h3 class="role-title">[Job title]</h3>
+          <p class="role-org">[Company]</p>
+          <ul class="role-points">
+            <li>[An achievement, with a number if you have one.]</li>
+            <li>[A responsibility that shows the scope of the role.]</li>
+          </ul>
+        </li>
+        <li class="role">
+          <p class="role-dates"><time datetime="2020">2020</time> to <time datetime="2023">2023</time></p>
+          <h3 class="role-title">[Job title]</h3>
+          <p class="role-org">[Company]</p>
+          <ul class="role-points">
+            <li>[An achievement.]</li>
+            <li>[A responsibility.]</li>
+          </ul>
+        </li>
+        <li class="role">
+          <p class="role-dates"><time datetime="2017">2017</time> to <time datetime="2020">2020</time></p>
+          <h3 class="role-title">[Job title]</h3>
+          <p class="role-org">[Company]</p>
+          <ul class="role-points">
+            <li>[An achievement.]</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <h2 class="section-title" id="skills-title">Skills</h2>
+      <div class="section-body skill-groups">
+        <div class="skill-group">
+          <h3>Core work</h3>
+          <ul class="tags">
+            <li>[Skill]</li><li>[Skill]</li><li>[Skill]</li><li>[Skill]</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul class="tags">
+            <li>[Tool]</li><li>[Tool]</li><li>[Tool]</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Education and certificates</h3>
+          <ul class="plain-list">
+            <li>[Qualification], [Institution], <time datetime="2016">2016</time></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <h2 class="section-title" id="contact-title">Contact</h2>
+      <div class="section-body">
+        <p class="contact-intro">Send a message here and it goes straight to my inbox. You can also email <a id="contact-email" href="mailto:jjaya.gaur@work-force.co.uk">jjaya.gaur@work-force.co.uk</a>.</p>
+
+        <form class="contact-form" id="contact-form" action="/api/contact" method="post" novalidate>
+          <div class="field">
+            <label for="cf-name">Your name</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" maxlength="100" required>
+          </div>
+          <div class="field">
+            <label for="cf-email">Your email</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" maxlength="200" required>
+          </div>
+          <div class="field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="6" maxlength="5000" required></textarea>
+          </div>
+          <!-- Spam trap: hidden from people, bots fill it in -->
+          <div class="trap" aria-hidden="true">
+            <label for="cf-website">Leave this empty</label>
+            <input id="cf-website" name="website" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <button class="button button-primary" type="submit" id="cf-submit">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <p class="form-note">Your name and email are only used to reply to you.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Jaya Gaur</p>
+    <a href="#top">Back to top</a>
+  </footer>
+</body>
+</html>
