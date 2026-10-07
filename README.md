@@ -1,2 +1,0 @@
-# JG-Port
-JG Portfolio
